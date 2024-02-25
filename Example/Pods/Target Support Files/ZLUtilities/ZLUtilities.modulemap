@@ -1,0 +1,6 @@
+framework module ZLUtilities {
+  umbrella header "ZLUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

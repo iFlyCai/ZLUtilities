@@ -1,0 +1,22 @@
+{
+  "name": "ZLUtilities",
+  "version": "0.1.0",
+  "summary": "A short description of ZLUtilities.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ExistOrLive/ZLUtilities",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ExistOrLive": "2068531506@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ExistOrLive/ZLUtilities.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZLUtilities/Classes/**/*"
+}

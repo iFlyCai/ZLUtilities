@@ -1,0 +1,6 @@
+framework module Pods_ZLUtilities_Tests {
+  umbrella header "Pods-ZLUtilities_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
