@@ -75,6 +75,11 @@
     if ([platform isEqualToString:@"iPhone14,8"]) return @"iPhone 14 Plus";
     if ([platform isEqualToString:@"iPhone15,2"]) return @"iPhone 14 Pro";
     if ([platform isEqualToString:@"iPhone15,3"]) return @"iPhone 14 Pro Max";
+    if ([platform isEqualToString:@"iPhone15,4"]) return @"iPhone 15";
+    if ([platform isEqualToString:@"iPhone15,5"]) return @"iPhone 15 Plus";
+    if ([platform isEqualToString:@"iPhone16,1"]) return @"iPhone 15 Pro";
+    if ([platform isEqualToString:@"iPhone16,2"]) return @"iPhone 15 Pro Max";
+    
     
     // iPad
     if ([platform isEqualToString:@"iPad1,1"]) return @"iPad";
