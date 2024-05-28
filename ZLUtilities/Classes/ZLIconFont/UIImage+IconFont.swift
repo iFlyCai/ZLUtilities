@@ -16,25 +16,19 @@ public extension UIImage {
                                     fontSize: CGFloat ,
                                     imageSize: CGSize,
                                     color: UIColor) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(imageSize, false, UIScreen.main.scale)
+      
+        let renderer = UIGraphicsImageRenderer(size: imageSize)
         
-        defer {
-            UIGraphicsEndImageContext()
+        let image = renderer.image { context in
+            let attributedString = NSAttributedString(string: withText,
+                                                      attributes: [.foregroundColor:color,
+                                                                   .font:UIFont.zlIconFont(withSize: fontSize)])
+            
+            attributedString.draw(at: CGPoint(x: (imageSize.width - attributedString.size().width) / 2,
+                                              y: (imageSize.height - attributedString.size().height) / 2))
         }
-        
-        let attributedString = NSAttributedString(string: withText,
-                                                  attributes: [.foregroundColor:color,
-                                                               .font:UIFont.zlIconFont(withSize: fontSize)])
-        
-        attributedString.draw(at: CGPoint(x: (imageSize.width - attributedString.size().width) / 2,
-                                          y: (imageSize.height - attributedString.size().height) / 2))
-        
-        if let image = UIGraphicsGetImageFromCurrentImageContext(),
-           let cgImgae = image.cgImage {
-            return UIImage(cgImage: cgImgae, scale: UIScreen.main.scale, orientation: .up)
-        } else {
-            return nil
-        }
+            
+        return image
     }
     
     @objc static func iconFontImage(withText: String,
