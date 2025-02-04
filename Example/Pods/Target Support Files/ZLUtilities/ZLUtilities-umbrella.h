@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZLDeviceInfo.h"
 
 FOUNDATION_EXPORT double ZLUtilitiesVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZLUtilitiesVersionString[];

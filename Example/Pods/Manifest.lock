@@ -1,5 +1,5 @@
 PODS:
-  - ZLUtilities (0.1.0)
+  - ZLUtilities (0.0.2)
 
 DEPENDENCIES:
   - ZLUtilities (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZLUtilities: f47279dc92b4854fb2e2abb86b841dc8cd16e5a1
+  ZLUtilities: bee6abf37b8827eae82fe57e224b7e500579e92d
 
 PODFILE CHECKSUM: a3a16f7e8e8e89241b19a40a6add5bc565a609af
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2

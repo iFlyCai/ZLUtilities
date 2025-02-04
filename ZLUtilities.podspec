@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLUtilities'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZLUtilities.'
+  s.version          = '0.0.2'
+  s.summary          = 'ZLUtilities.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  0.0.2更新日志:删除了ZLUtilities中无用的部分
                        DESC
 
-  s.homepage         = 'https://github.com/ExistOrLive/ZLUtilities'
+  s.homepage         = 'https://github.com/iFlyCai/ZLUtilities'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ExistOrLive' => '2068531506@qq.com' }
-  s.source           = { :git => 'https://github.com/ExistOrLive/ZLUtilities.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iFlyCai/ZLUtilities.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.6'
 
   s.source_files = 'ZLUtilities/Classes/**/*'
   
@@ -39,7 +39,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency "AGConnectCore"
-  s.dependency "AGConnectRemoteConfig"
-  s.dependency "HiAnalytics"
 end

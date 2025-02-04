@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7038BE5D708A328DE7D06ADE /* Pods-ZLUtilities_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLUtilities_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A92B3A3E1EC86CEECEE7E542 /* Pods_ZLUtilities_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLUtilities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B44930B3A6E047284EC6722E /* ZLUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZLUtilities.podspec; path = ../ZLUtilities.podspec; sourceTree = "<group>"; };
+		B44930B3A6E047284EC6722E /* ZLUtilities.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLUtilities.podspec; path = ../ZLUtilities.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC3187F669A42EC2842DF7DF /* Pods-ZLUtilities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLUtilities_Example.release.xcconfig"; path = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D28345E38EC2B80EC2D8AB51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D28345E38EC2B80EC2D8AB51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD1A57D1C940A81EBA977D00 /* Pods_ZLUtilities_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLUtilities_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEC04B36990DDA03472BD794 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EEC04B36990DDA03472BD794 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7038BE5D708A328DE7D06ADE /* Pods-ZLUtilities_Tests.debug.xcconfig */,
 				2F3A20A1C1F17C1C5BC9E1F9 /* Pods-ZLUtilities_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

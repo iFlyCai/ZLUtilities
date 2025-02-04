@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111AA91DE62CD8B1689338523D29CEE6 /* ZLUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E49B0EFEE2814EB15FDC7B6EEB2326DB /* ZLUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F1301436AD8810D5C3BE01FA6BAA4AF /* Pods-ZLUtilities_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F4AACE4EE466EBAB62BE40C48C4B4 /* Pods-ZLUtilities_Tests-dummy.m */; };
-		5632AB5828642C6549E6D0F2049D1B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5E5735D9A4E532FFF211738421595D34 /* Pods-ZLUtilities_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F60BB1590B42B0E42FDDE90DC8C59DC /* Pods-ZLUtilities_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D1963E8EDD3815891C99657272AB1D6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45042C905823C51ED1464176870F31 /* ReplaceMe.swift */; };
-		73D9E19A00207A86A31B99C28F672CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B16C6F93651CF078E3FBDC384CD0ADC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D7D469B6EDCEAC90D5FAF54D14BEA81F /* Pods-ZLUtilities_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C4E74BF1E79C14E4306C92F5E82105 /* Pods-ZLUtilities_Example-dummy.m */; };
-		F2C124D9975151FC98B8A28F845CB40C /* Pods-ZLUtilities_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9A9AE5EB21174E5FC1E0D3CA80C44 /* Pods-ZLUtilities_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA00EAA360DDCDFDB0162ECD8C0FA763 /* ZLUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAD18B4E39225C63B95D72A8DBEC0BA /* ZLUtilities-dummy.m */; };
+		05E82A9748B254B13E73969013D9E224 /* ZLUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E05A806501C5FB67E2AFAD310C62AF3 /* ZLUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AEC02A1865C18431820C59120399FF /* ZLDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDF3DD66FE81D82ED3E055275EACDE4 /* ZLDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15776E4691FFE5ECC2B444CF728ACAC9 /* UIImage+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C40986BEF80EAF9AEEDF156D6A019 /* UIImage+IconFont.swift */; };
+		20CBDF577356A0E7856E807A342DA498 /* ZLUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB34ED9BEBDF09AA8B046D6EE69C79 /* ZLUtilities-dummy.m */; };
+		21A000A5F887EA4819481393EE1D9DB6 /* Pods-ZLUtilities_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9A9AE5EB21174E5FC1E0D3CA80C44 /* Pods-ZLUtilities_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC0AB5BA668D12E2BBE889B69B757A6 /* Pods-ZLUtilities_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F60BB1590B42B0E42FDDE90DC8C59DC /* Pods-ZLUtilities_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F4D55D2C6D006D0B024F9C15B91231 /* Pods-ZLUtilities_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C4E74BF1E79C14E4306C92F5E82105 /* Pods-ZLUtilities_Example-dummy.m */; };
+		3DF43020C413837908FD312F3ABC5C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7D47B2F821B63F04CF7125DD7F207112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		8B06EE5194894431CDE1802E683DA36F /* ZLIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E61F0FB6AE209C97CD3447E3EC5944D /* ZLIconFont.swift */; };
+		90F6C39C1B8B6863725CF8436C5338AB /* ZLDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E316EDFD1D0ECC3BB414F5C76440E0FE /* ZLDeviceInfo.m */; };
+		980208A53AA11FAB794643B4B7B9045F /* Pods-ZLUtilities_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F4AACE4EE466EBAB62BE40C48C4B4 /* Pods-ZLUtilities_Tests-dummy.m */; };
+		F6A1AC1C1C491A5D9C1A7D8DBD973E68 /* UIFont+IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92E6C9739B31ECD2DEDEA91937FF3D /* UIFont+IconFont.swift */; };
+		F8236AECA366AC7503C2875B3A80345B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A98D2CF3C50F4689C3F74963116027C /* PBXContainerItemProxy */ = {
+		4398743E43E0E611B69A6AD78437F236 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 10E0B0FC35DD70D9E6E4F322FA6319AE;
 			remoteInfo = ZLUtilities;
 		};
-		2D9700630258B48CB1DA4110AF39378E /* PBXContainerItemProxy */ = {
+		FDEBB170AE6B4412CE6CAE3CD40FBFEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,21 +41,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053C6D6C3620510641FEFD8FBAD5B947 /* ZLUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLUtilities.modulemap; sourceTree = "<group>"; };
+		065E6504E54877E6E5465A6CB89D0896 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		08C809687E49DD0EC99758B2DF89EC26 /* Pods-ZLUtilities_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLUtilities_Example-Info.plist"; sourceTree = "<group>"; };
-		0959E8FBE1476A77B69D3CD427C821D4 /* ZLUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLUtilities-Info.plist"; sourceTree = "<group>"; };
 		16DFFF655A4CD1A33E865583E68FBC9C /* Pods-ZLUtilities_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLUtilities_Tests.modulemap"; sourceTree = "<group>"; };
+		277C40986BEF80EAF9AEEDF156D6A019 /* UIImage+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+IconFont.swift"; sourceTree = "<group>"; };
 		29C4E74BF1E79C14E4306C92F5E82105 /* Pods-ZLUtilities_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLUtilities_Example-dummy.m"; sourceTree = "<group>"; };
 		2F60BB1590B42B0E42FDDE90DC8C59DC /* Pods-ZLUtilities_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLUtilities_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F92E6C9739B31ECD2DEDEA91937FF3D /* UIFont+IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+IconFont.swift"; sourceTree = "<group>"; };
 		324C14D39EEC7EA2EB5A046047E56D7C /* Pods-ZLUtilities_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLUtilities_Tests"; path = Pods_ZLUtilities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E61F0FB6AE209C97CD3447E3EC5944D /* ZLIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLIconFont.swift; sourceTree = "<group>"; };
 		3F9DFCDAEEF14BD1AE28B7AD73297E52 /* Pods-ZLUtilities_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLUtilities_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43492708770BAB599667D817F1DB87AA /* ZLUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLUtilities.release.xcconfig; sourceTree = "<group>"; };
-		4384818DCBC50B990EBD6078383EB729 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		478F8B854F86CE14D7872C76AC61624D /* ZLUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLUtilities-prefix.pch"; sourceTree = "<group>"; };
-		485B21506EBBF8445552EE2E4E965873 /* ZLUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLUtilities.debug.xcconfig; sourceTree = "<group>"; };
 		50A2B12F54E1D437BBBE2432D53BA23C /* Pods-ZLUtilities_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLUtilities_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		625E4C1982FCA030CDE041B10ED8DE11 /* ZLUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E6C0924B715A8593989A68DF7AA310C /* ZLUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLUtilities-prefix.pch"; sourceTree = "<group>"; };
+		6D8552E6063398E80EA3F878C2CF583C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7B481FA518C8B6527F4F95A8A7F985B4 /* Pods-ZLUtilities_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLUtilities_Example"; path = Pods_ZLUtilities_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDF3DD66FE81D82ED3E055275EACDE4 /* ZLDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLDeviceInfo.h; sourceTree = "<group>"; };
 		7FB0A63C2E16ADD443E8A860AD44404A /* Pods-ZLUtilities_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLUtilities_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8340713DCDBEEE016D898E3EA1616856 /* Pods-ZLUtilities_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLUtilities_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		843BCF196D23F582B80619029D8582E4 /* Pods-ZLUtilities_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLUtilities_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,55 +65,76 @@
 		8B75DBDF1FE05F9125F10D447482505A /* Pods-ZLUtilities_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLUtilities_Example.modulemap"; sourceTree = "<group>"; };
 		8F4FC55985960A164DA5225881C099CF /* Pods-ZLUtilities_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLUtilities_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC9A9AE5EB21174E5FC1E0D3CA80C44 /* Pods-ZLUtilities_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLUtilities_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8FCB34ED9BEBDF09AA8B046D6EE69C79 /* ZLUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLUtilities-dummy.m"; sourceTree = "<group>"; };
 		91B0273B1B49E5EBF6BD1905EF691330 /* Pods-ZLUtilities_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLUtilities_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E05A806501C5FB67E2AFAD310C62AF3 /* ZLUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLUtilities-umbrella.h"; sourceTree = "<group>"; };
 		9F4F4AACE4EE466EBAB62BE40C48C4B4 /* Pods-ZLUtilities_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLUtilities_Tests-dummy.m"; sourceTree = "<group>"; };
-		9F6E15FCE4BD35A4CA832188BDE2184B /* ZLUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLUtilities.modulemap; sourceTree = "<group>"; };
 		A1811654AB7109D4D277A43A5F15BD8E /* Pods-ZLUtilities_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLUtilities_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A86C8CD5A15B9067F4B087B79FB340EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AAAD18B4E39225C63B95D72A8DBEC0BA /* ZLUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLUtilities-dummy.m"; sourceTree = "<group>"; };
-		CA45042C905823C51ED1464176870F31 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZLUtilities/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C25DC732F2DE2A8964278E90A4ADF637 /* ZLUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC7696B4005154C965075A5FF2D278F0 /* Pods-ZLUtilities_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLUtilities_Tests-Info.plist"; sourceTree = "<group>"; };
-		E49B0EFEE2814EB15FDC7B6EEB2326DB /* ZLUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLUtilities-umbrella.h"; sourceTree = "<group>"; };
+		E316EDFD1D0ECC3BB414F5C76440E0FE /* ZLDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLDeviceInfo.m; sourceTree = "<group>"; };
+		E7975DFD1A0104A091C73EE67731A81A /* ZLUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLUtilities.release.xcconfig; sourceTree = "<group>"; };
 		E90ED88A83107CE1EC966E3ADC882758 /* ZLUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLUtilities; path = ZLUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7D8858E36B40B502DB5DBDA91E9ECC /* ZLUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		F25CF5F601E27A40B5E958BF2B4FA9A5 /* ZLUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLUtilities-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20DAD6C42F25ACC31C9F100D291E20AD /* Frameworks */ = {
+		7D3E80A1227285CF3E4E22602F5B477A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C6F93651CF078E3FBDC384CD0ADC2 /* Foundation.framework in Frameworks */,
+				7D47B2F821B63F04CF7125DD7F207112 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		990B286FC248ED8E405178BC8EA630DC /* Frameworks */ = {
+		E8885D1678EF2FF3CBAFAF9A927523B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D9E19A00207A86A31B99C28F672CAE /* Foundation.framework in Frameworks */,
+				3DF43020C413837908FD312F3ABC5C9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBE472C564A2E5B20CE913D5EB01ED33 /* Frameworks */ = {
+		F3AD2E64568AE610430A1505166D1CD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5632AB5828642C6549E6D0F2049D1B88 /* Foundation.framework in Frameworks */,
+				F8236AECA366AC7503C2875B3A80345B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		121A93A3B5F39AE6A3F2776547D92FB1 /* Pod */ = {
+		2A937FC5114FBD46B357103FB7BED27E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4384818DCBC50B990EBD6078383EB729 /* LICENSE */,
-				A86C8CD5A15B9067F4B087B79FB340EE /* README.md */,
-				625E4C1982FCA030CDE041B10ED8DE11 /* ZLUtilities.podspec */,
+				B923F6D08305027A5B897BB5D49F160F /* ZLUtilities */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2C3A45EF5D35524A16B0A3701A562E9A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				065E6504E54877E6E5465A6CB89D0896 /* LICENSE */,
+				6D8552E6063398E80EA3F878C2CF583C /* README.md */,
+				C25DC732F2DE2A8964278E90A4ADF637 /* ZLUtilities.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		351F97127D7D40A3D908E99A9C59E3F2 /* ZLIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				2F92E6C9739B31ECD2DEDEA91937FF3D /* UIFont+IconFont.swift */,
+				277C40986BEF80EAF9AEEDF156D6A019 /* UIImage+IconFont.swift */,
+				3E61F0FB6AE209C97CD3447E3EC5944D /* ZLIconFont.swift */,
+			);
+			name = ZLIconFont;
+			path = ZLUtilities/Classes/ZLIconFont;
 			sourceTree = "<group>";
 		};
 		46FDC1716D7FC4FA8EC2F342BE884C64 /* Targets Support Files */ = {
@@ -117,14 +144,6 @@
 				63E55A91342B3DC28214EFB20358573E /* Pods-ZLUtilities_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		63E55A91342B3DC28214EFB20358573E /* Pods-ZLUtilities_Tests */ = {
@@ -143,35 +162,38 @@
 			path = "Target Support Files/Pods-ZLUtilities_Tests";
 			sourceTree = "<group>";
 		};
-		67D833938E3F3FFAAA65D5CA91FCE965 /* Support Files */ = {
+		7FC57BEB4B386883FBD2F76E92625570 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F6E15FCE4BD35A4CA832188BDE2184B /* ZLUtilities.modulemap */,
-				AAAD18B4E39225C63B95D72A8DBEC0BA /* ZLUtilities-dummy.m */,
-				0959E8FBE1476A77B69D3CD427C821D4 /* ZLUtilities-Info.plist */,
-				478F8B854F86CE14D7872C76AC61624D /* ZLUtilities-prefix.pch */,
-				E49B0EFEE2814EB15FDC7B6EEB2326DB /* ZLUtilities-umbrella.h */,
-				485B21506EBBF8445552EE2E4E965873 /* ZLUtilities.debug.xcconfig */,
-				43492708770BAB599667D817F1DB87AA /* ZLUtilities.release.xcconfig */,
+				053C6D6C3620510641FEFD8FBAD5B947 /* ZLUtilities.modulemap */,
+				8FCB34ED9BEBDF09AA8B046D6EE69C79 /* ZLUtilities-dummy.m */,
+				F25CF5F601E27A40B5E958BF2B4FA9A5 /* ZLUtilities-Info.plist */,
+				5E6C0924B715A8593989A68DF7AA310C /* ZLUtilities-prefix.pch */,
+				9E05A806501C5FB67E2AFAD310C62AF3 /* ZLUtilities-umbrella.h */,
+				EC7D8858E36B40B502DB5DBDA91E9ECC /* ZLUtilities.debug.xcconfig */,
+				E7975DFD1A0104A091C73EE67731A81A /* ZLUtilities.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZLUtilities";
 			sourceTree = "<group>";
 		};
-		AD93AF8B92827048820402BC7B2293D2 /* Development Pods */ = {
+		AAB5D52D9C9A5EE3E87108C53A4ED579 /* ZLDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				B2BE0CFB4F382E3633769DCDD1269A34 /* ZLUtilities */,
+				7EDF3DD66FE81D82ED3E055275EACDE4 /* ZLDeviceInfo.h */,
+				E316EDFD1D0ECC3BB414F5C76440E0FE /* ZLDeviceInfo.m */,
 			);
-			name = "Development Pods";
+			name = ZLDeviceInfo;
+			path = ZLUtilities/Classes/ZLDeviceInfo;
 			sourceTree = "<group>";
 		};
-		B2BE0CFB4F382E3633769DCDD1269A34 /* ZLUtilities */ = {
+		B923F6D08305027A5B897BB5D49F160F /* ZLUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				CA45042C905823C51ED1464176870F31 /* ReplaceMe.swift */,
-				121A93A3B5F39AE6A3F2776547D92FB1 /* Pod */,
-				67D833938E3F3FFAAA65D5CA91FCE965 /* Support Files */,
+				2C3A45EF5D35524A16B0A3701A562E9A /* Pod */,
+				7FC57BEB4B386883FBD2F76E92625570 /* Support Files */,
+				AAB5D52D9C9A5EE3E87108C53A4ED579 /* ZLDeviceInfo */,
+				351F97127D7D40A3D908E99A9C59E3F2 /* ZLIconFont */,
 			);
 			name = ZLUtilities;
 			path = ../..;
@@ -198,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AD93AF8B92827048820402BC7B2293D2 /* Development Pods */,
+				2A937FC5114FBD46B357103FB7BED27E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E2887CF16423CB542A9DF0B60981B727 /* Products */,
 				46FDC1716D7FC4FA8EC2F342BE884C64 /* Targets Support Files */,
@@ -208,7 +230,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,30 +245,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D0506F125AE6634C6AC857348EA8B6B /* Headers */ = {
+		5BF8864FE3286C98517D4D42647F5748 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C124D9975151FC98B8A28F845CB40C /* Pods-ZLUtilities_Tests-umbrella.h in Headers */,
+				21A000A5F887EA4819481393EE1D9DB6 /* Pods-ZLUtilities_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F2FA8F2C2530CD3EA991599E724956C /* Headers */ = {
+		727E1A940D5B2F358AD40D025ECC5822 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E5735D9A4E532FFF211738421595D34 /* Pods-ZLUtilities_Example-umbrella.h in Headers */,
+				06AEC02A1865C18431820C59120399FF /* ZLDeviceInfo.h in Headers */,
+				05E82A9748B254B13E73969013D9E224 /* ZLUtilities-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB52E1923BE7692AB518BCA6BF3A9F1 /* Headers */ = {
+		BA67FAB6E39FFE6FA1F8BC15C64C4E49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111AA91DE62CD8B1689338523D29CEE6 /* ZLUtilities-umbrella.h in Headers */,
+				2CC0AB5BA668D12E2BBE889B69B757A6 /* Pods-ZLUtilities_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +286,12 @@
 /* Begin PBXNativeTarget section */
 		10E0B0FC35DD70D9E6E4F322FA6319AE /* ZLUtilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB4B8E80DEDA389B18DE02D8932FB7C6 /* Build configuration list for PBXNativeTarget "ZLUtilities" */;
+			buildConfigurationList = 3D10B9A5DDBA23C63CD1F85E9B603CD9 /* Build configuration list for PBXNativeTarget "ZLUtilities" */;
 			buildPhases = (
-				7DB52E1923BE7692AB518BCA6BF3A9F1 /* Headers */,
-				D52556DFDBAAD8A9DF08F151AA74B643 /* Sources */,
-				990B286FC248ED8E405178BC8EA630DC /* Frameworks */,
-				C62D7FEE3468A775262505F4A220B353 /* Resources */,
+				727E1A940D5B2F358AD40D025ECC5822 /* Headers */,
+				9714D52C51BB86055949F5E1209DB34C /* Sources */,
+				E8885D1678EF2FF3CBAFAF9A927523B9 /* Frameworks */,
+				F4762E4077EFC045E93A852EBCA71624 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -273,17 +304,17 @@
 		};
 		3847673431D0F102705147D87166D18C /* Pods-ZLUtilities_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42B5AF6EA19F56519843BE0541C74E76 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Tests" */;
+			buildConfigurationList = 5806AAE2427858CF024001C2BB5026C9 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Tests" */;
 			buildPhases = (
-				2D0506F125AE6634C6AC857348EA8B6B /* Headers */,
-				3DEF9B4F97BF47820E2827B70C42F1E7 /* Sources */,
-				20DAD6C42F25ACC31C9F100D291E20AD /* Frameworks */,
-				F998C19ACC45651A52F30A04887203B0 /* Resources */,
+				5BF8864FE3286C98517D4D42647F5748 /* Headers */,
+				342D4330525889DDE4BDDD3A22CC37C2 /* Sources */,
+				7D3E80A1227285CF3E4E22602F5B477A /* Frameworks */,
+				9BF19C724C6B3AC67B2CB86C24F618CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3FF84209D39B19794F59BFC0F9E983D /* PBXTargetDependency */,
+				83F678C28F1BCF2F31FE3FBA3177FCE2 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLUtilities_Tests";
 			productName = Pods_ZLUtilities_Tests;
@@ -292,17 +323,17 @@
 		};
 		4B241B5DD93C5A76ADDE1FD83500DD07 /* Pods-ZLUtilities_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED8ACB4A9366308C5717252B79D69997 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Example" */;
+			buildConfigurationList = 0613E5333AB5C8BDE079B1755FD4CC8B /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Example" */;
 			buildPhases = (
-				4F2FA8F2C2530CD3EA991599E724956C /* Headers */,
-				C32A537B3861F1B012D8CA88BC245355 /* Sources */,
-				BBE472C564A2E5B20CE913D5EB01ED33 /* Frameworks */,
-				5CA3F47A02BF9DBC8F5ED14E793F802D /* Resources */,
+				BA67FAB6E39FFE6FA1F8BC15C64C4E49 /* Headers */,
+				A1499A04CB2AEF56E83FE964BC3E9993 /* Sources */,
+				F3AD2E64568AE610430A1505166D1CD8 /* Frameworks */,
+				8C34E80F74D7B833F0B1F9B0B136C76D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				146ECEB27B873716D017F3B698461A83 /* PBXTargetDependency */,
+				C8FD0B4B0FF701AC5E56BBF18AACD384 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLUtilities_Example";
 			productName = Pods_ZLUtilities_Example;
@@ -315,8 +346,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,6 +358,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = E2887CF16423CB542A9DF0B60981B727 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,21 +372,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5CA3F47A02BF9DBC8F5ED14E793F802D /* Resources */ = {
+		8C34E80F74D7B833F0B1F9B0B136C76D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62D7FEE3468A775262505F4A220B353 /* Resources */ = {
+		9BF19C724C6B3AC67B2CB86C24F618CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F998C19ACC45651A52F30A04887203B0 /* Resources */ = {
+		F4762E4077EFC045E93A852EBCA71624 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,50 +396,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DEF9B4F97BF47820E2827B70C42F1E7 /* Sources */ = {
+		342D4330525889DDE4BDDD3A22CC37C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1301436AD8810D5C3BE01FA6BAA4AF /* Pods-ZLUtilities_Tests-dummy.m in Sources */,
+				980208A53AA11FAB794643B4B7B9045F /* Pods-ZLUtilities_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C32A537B3861F1B012D8CA88BC245355 /* Sources */ = {
+		9714D52C51BB86055949F5E1209DB34C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D469B6EDCEAC90D5FAF54D14BEA81F /* Pods-ZLUtilities_Example-dummy.m in Sources */,
+				F6A1AC1C1C491A5D9C1A7D8DBD973E68 /* UIFont+IconFont.swift in Sources */,
+				15776E4691FFE5ECC2B444CF728ACAC9 /* UIImage+IconFont.swift in Sources */,
+				90F6C39C1B8B6863725CF8436C5338AB /* ZLDeviceInfo.m in Sources */,
+				8B06EE5194894431CDE1802E683DA36F /* ZLIconFont.swift in Sources */,
+				20CBDF577356A0E7856E807A342DA498 /* ZLUtilities-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52556DFDBAAD8A9DF08F151AA74B643 /* Sources */ = {
+		A1499A04CB2AEF56E83FE964BC3E9993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1963E8EDD3815891C99657272AB1D6 /* ReplaceMe.swift in Sources */,
-				FA00EAA360DDCDFDB0162ECD8C0FA763 /* ZLUtilities-dummy.m in Sources */,
+				35F4D55D2C6D006D0B024F9C15B91231 /* Pods-ZLUtilities_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		146ECEB27B873716D017F3B698461A83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLUtilities;
-			target = 10E0B0FC35DD70D9E6E4F322FA6319AE /* ZLUtilities */;
-			targetProxy = 0A98D2CF3C50F4689C3F74963116027C /* PBXContainerItemProxy */;
-		};
-		D3FF84209D39B19794F59BFC0F9E983D /* PBXTargetDependency */ = {
+		83F678C28F1BCF2F31FE3FBA3177FCE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZLUtilities_Example";
 			target = 4B241B5DD93C5A76ADDE1FD83500DD07 /* Pods-ZLUtilities_Example */;
-			targetProxy = 2D9700630258B48CB1DA4110AF39378E /* PBXContainerItemProxy */;
+			targetProxy = FDEBB170AE6B4412CE6CAE3CD40FBFEA /* PBXContainerItemProxy */;
+		};
+		C8FD0B4B0FF701AC5E56BBF18AACD384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLUtilities;
+			target = 10E0B0FC35DD70D9E6E4F322FA6319AE /* ZLUtilities */;
+			targetProxy = 4398743E43E0E611B69A6AD78437F236 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A35CC03C21FC7DA0F7E50DFEFFC2CC7 /* Release */ = {
+		1E1358780DDEA2B97281884AA77B4D0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91B0273B1B49E5EBF6BD1905EF691330 /* Pods-ZLUtilities_Tests.release.xcconfig */;
 			buildSettings = {
@@ -420,6 +456,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -440,9 +478,80 @@
 			};
 			name = Release;
 		};
-		3E49C277C28461C3131237C2EB7BBDBC /* Debug */ = {
+		2602584209C7E96E8121612F51134118 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4FC55985960A164DA5225881C099CF /* Pods-ZLUtilities_Example.debug.xcconfig */;
+			baseConfigurationReference = EC7D8858E36B40B502DB5DBDA91E9ECC /* ZLUtilities.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLUtilities/ZLUtilities-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLUtilities/ZLUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLUtilities/ZLUtilities.modulemap";
+				PRODUCT_MODULE_NAME = ZLUtilities;
+				PRODUCT_NAME = ZLUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D8FD7BFB3893247D2F72EF6D0440368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7975DFD1A0104A091C73EE67731A81A /* ZLUtilities.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLUtilities/ZLUtilities-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLUtilities/ZLUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLUtilities/ZLUtilities.modulemap";
+				PRODUCT_MODULE_NAME = ZLUtilities;
+				PRODUCT_NAME = ZLUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B055985D4A51F0EF72C846CEE02DAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1811654AB7109D4D277A43A5F15BD8E /* Pods-ZLUtilities_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -454,12 +563,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -472,38 +583,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		61772A510AE13F85641C19863B47A946 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43492708770BAB599667D817F1DB87AA /* ZLUtilities.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLUtilities/ZLUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLUtilities/ZLUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLUtilities/ZLUtilities.modulemap";
-				PRODUCT_MODULE_NAME = ZLUtilities;
-				PRODUCT_NAME = ZLUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -567,7 +646,7 @@
 			};
 			name = Release;
 		};
-		A8C1F39FB6BD82067368A233BB802263 /* Release */ = {
+		89492EF0CC5E484106A78DA3D5B37ADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F9DFCDAEEF14BD1AE28B7AD73297E52 /* Pods-ZLUtilities_Example.release.xcconfig */;
 			buildSettings = {
@@ -581,6 +660,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -667,40 +748,9 @@
 			};
 			name = Debug;
 		};
-		E53E28EF48A33B20A88FEFD7AF227C94 /* Debug */ = {
+		F3C3F697C7CB2139166555C0F4A7207D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 485B21506EBBF8445552EE2E4E965873 /* ZLUtilities.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLUtilities/ZLUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLUtilities/ZLUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLUtilities/ZLUtilities.modulemap";
-				PRODUCT_MODULE_NAME = ZLUtilities;
-				PRODUCT_NAME = ZLUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EFE9FA81EFA4D9F1B321B393364C3335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1811654AB7109D4D277A43A5F15BD8E /* Pods-ZLUtilities_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8F4FC55985960A164DA5225881C099CF /* Pods-ZLUtilities_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -712,12 +762,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZLUtilities_Tests/Pods-ZLUtilities_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLUtilities_Example/Pods-ZLUtilities_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -734,11 +786,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42B5AF6EA19F56519843BE0541C74E76 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Tests" */ = {
+		0613E5333AB5C8BDE079B1755FD4CC8B /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFE9FA81EFA4D9F1B321B393364C3335 /* Debug */,
-				0A35CC03C21FC7DA0F7E50DFEFFC2CC7 /* Release */,
+				F3C3F697C7CB2139166555C0F4A7207D /* Debug */,
+				89492EF0CC5E484106A78DA3D5B37ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D10B9A5DDBA23C63CD1F85E9B603CD9 /* Build configuration list for PBXNativeTarget "ZLUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2602584209C7E96E8121612F51134118 /* Debug */,
+				2D8FD7BFB3893247D2F72EF6D0440368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,20 +813,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB4B8E80DEDA389B18DE02D8932FB7C6 /* Build configuration list for PBXNativeTarget "ZLUtilities" */ = {
+		5806AAE2427858CF024001C2BB5026C9 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E53E28EF48A33B20A88FEFD7AF227C94 /* Debug */,
-				61772A510AE13F85641C19863B47A946 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED8ACB4A9366308C5717252B79D69997 /* Build configuration list for PBXNativeTarget "Pods-ZLUtilities_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E49C277C28461C3131237C2EB7BBDBC /* Debug */,
-				A8C1F39FB6BD82067368A233BB802263 /* Release */,
+				3B055985D4A51F0EF72C846CEE02DAFD /* Debug */,
+				1E1358780DDEA2B97281884AA77B4D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

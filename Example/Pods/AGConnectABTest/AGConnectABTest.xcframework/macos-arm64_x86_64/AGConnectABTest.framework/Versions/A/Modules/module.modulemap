@@ -1,0 +1,6 @@
+framework module AGConnectABTest {
+  umbrella header "AGConnectABTest.h"
+
+  export *
+  module * { export * }
+}
