@@ -1,9 +1,9 @@
 {
   "name": "ZLUtilities",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "ZLUtilities.",
   "description": "0.0.2更新日志:删除了ZLUtilities中无用的部分",
-  "homepage": "https://github.com/ExistOrLive/ZLUtilities",
+  "homepage": "https://github.com/iFlyCai/ZLUtilities",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "ExistOrLive": "2068531506@qq.com"
   },
   "source": {
-    "git": "https://github.com/ExistOrLive/ZLUtilities.git",
-    "tag": "0.0.2"
+    "git": "https://github.com/iFlyCai/ZLUtilities.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "15.6"
   },
-  "source_files": "ZLUtilities/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "ZLUtilities/Classes/**/*",
+  "swift_version": "5.0"
 }

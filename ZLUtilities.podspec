@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLUtilities'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'ZLUtilities.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.6'
+  s.swift_version = '5.0'
 
   s.source_files = 'ZLUtilities/Classes/**/*'
   
